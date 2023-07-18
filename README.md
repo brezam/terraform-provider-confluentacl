@@ -3,12 +3,6 @@
 Custom terraform provider for creating confluent kafka ACLs (Access Control Lists) without needing to create an 
 additional cluster api key
 
-
-## TODO
-- [X] Implemented functionality
-- [X] Added test cases
-- [ ] Publish to registry.terraform.io
-
 ## Why use this?
 
 The official confluent terraform provider requires a `credentials` block in order to create kafka ACLs. This credential 

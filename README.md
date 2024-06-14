@@ -3,6 +3,13 @@
 Custom terraform provider for creating confluent kafka ACLs (Access Control Lists) without needing to create an 
 additional cluster api key
 
+## Important Disclaimer (2024)
+
+I don't have access to Confluent Cloud anymore so this is unsupported, and I have no idea if the APIs are still working.
+Use at your own risk.
+The provider version `0.1.0` with source 'bruno-zamariola/confluentacl' is functionaly equivalent to version `0.1.1` with 
+source 'brezam/confluentacl'.
+
 ## Why use this?
 
 The official confluent terraform provider requires a `credentials` block in order to create kafka ACLs. This credential 
@@ -18,8 +25,8 @@ to be simpler like that as well
 terraform {
   required_providers {
     confluentacl = {
-      version = "0.1.0"
-      source  = "bruno-zamariola/confluentacl"
+      version = "0.1.1"
+      source  = "brezam/confluentacl"
     }
   }
 }

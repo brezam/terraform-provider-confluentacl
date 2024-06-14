@@ -9,7 +9,7 @@ import (
 
 func main() {
 	providerserver.Serve(context.Background(), internal.NewProvider, providerserver.ServeOpts{
-		Address: "registry.terraform.io/bruno-zamariola/confluentacl",
+		Address: "registry.terraform.io/brezam/confluentacl",
 		ProtocolVersion: 6,
 	})
 }

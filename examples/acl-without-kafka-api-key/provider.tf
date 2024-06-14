@@ -7,8 +7,8 @@ terraform {
       version = "1.48.0"
     }
     confluentacl = {
-      source  = "bruno-zamariola/confluentacl"
-      version = "0.1.0"
+      source  = "brezam/confluentacl"
+      version = "0.1.1"
     }
   }
 }

@@ -3,8 +3,8 @@ terraform {
 
   required_providers {
     confluentacl = {
-      version = "0.1.0"
-      source  = "bruno-zamariola/confluentacl"
+      version = "0.1.1"
+      source  = "brezam/confluentacl"
     }
   }
 }
